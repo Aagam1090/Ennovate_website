@@ -1165,3 +1165,77 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+
+
+/* Services Section
+--------------------------------*/
+
+#services {
+  padding: 60px 0 40px 0;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#services .box:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+#services .icon {
+  position: absolute;
+  left: 5px;
+  top: calc(50% - 32px);
+}
+
+#services .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#services .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+
+#services .box:hover .title a {
+  color: #007bff;
+}
+
+svg[data-icon="emojione:bar-chart"] {
+  font-size: 45px;
+}
+
+svg[data-icon="noto:man-farmer-light-skin-tone"] {
+  font-size: 45px;
+}
+
+
+svg[data-icon="noto:women-holding-hands-medium-light-skin-tone-light-skin-tone"] {
+  font-size: 45px;
+}
+
+
+svg[data-icon="noto-v1:man-health-worker-medium-light-skin-tone"] {
+  font-size: 45px;
+}
+
+svg[data-icon="openmoji:solar-cell"] {
+  font-size: 45px;
+}
+svg[data-icon="noto:woman-in-motorized-wheelchair-light-skin-tone"] {
+  font-size: 45px;
+}
