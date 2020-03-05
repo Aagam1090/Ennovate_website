@@ -1239,3 +1239,39 @@ svg[data-icon="openmoji:solar-cell"] {
 svg[data-icon="noto:woman-in-motorized-wheelchair-light-skin-tone"] {
   font-size: 45px;
 }
+/* FAQ Section */
+
+#faq {
+  padding: 60px 0;
+  background: #004a99;
+}
+
+#faq .section-header h3,
+#faq .section-header p {
+  color: #fff;
+}
+
+#faq .Faq-Q
+{
+  background: #003b7a;
+  border-color: #003b7a;
+  border-radius: 10px;
+  margin: 0 12px;
+  margin-bottom: 20px;
+  padding: 8px ;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+#faq .Faq-Q a
+{
+  color: #fff;
+  font-size: 18px;
+  text-justify: auto;
+}
+
+
+#faq .Faq-Q li
+{
+  color: #fff;
+}
