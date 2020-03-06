@@ -647,7 +647,11 @@ h6 {
   padding: 60px 0;
   background: #004a99;
 }
-
+#prize li
+{
+  color:#fff;
+  font-size: medium;
+}
 #prize .section-header h3,
 #prize .section-header p {
   color: #fff;
