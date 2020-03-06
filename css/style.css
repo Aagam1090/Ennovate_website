@@ -978,7 +978,7 @@ h6 {
   color: #ecf5ff;
 }
 
-#footer .footer-top .social-links a {
+#ss {
   font-size: 18px;
   display: inline-block;
   background: #007bff;
@@ -993,7 +993,20 @@ h6 {
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#telno{
+  font-size: 18px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#ss:hover {
   background: #0067d5;
   color: #fff;
 }
